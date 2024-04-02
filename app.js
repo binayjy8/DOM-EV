@@ -1,19 +1,19 @@
-let btns = document.querySelectorAll("button");
+// let btns = document.querySelectorAll("button");
 
-for(btn of btns) {
-    // btn.onclick = sayHello;
-    // btn.onmouseenter = function () {
-    //     console.log("you enter a button");
-    // }
+// for(btn of btns) {
+//     // btn.onclick = sayHello;
+//     // btn.onmouseenter = function () {
+//     //     console.log("you enter a button");
+//     // }
 
-    btn.addEventListener("click", sayHello);
-    btn.addEventListener("click", sayName);
-}
+//     btn.addEventListener("click", sayHello);
+//     btn.addEventListener("click", sayName);
+// }
 
-function sayHello() {
-    alert("Hi Baby");
-}
+// function sayHello() {
+//     alert("Hi Baby");
+// }
 
-function sayName () {
-    alert("My Village");
-}
+// function sayName () {
+//     alert("My Village");
+// }
