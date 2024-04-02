@@ -11,3 +11,6 @@ function sayHello() {
     alert("Hi Baby");
 }
 
+function sayName () {
+    alert("My Village");
+}
