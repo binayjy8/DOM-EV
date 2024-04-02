@@ -40,9 +40,17 @@
 //     return color;
 // }
 
-let btn = document.querySelector("button");
+// let btn = document.querySelector("button");
 
-btn.addEventListener("click", function (event) {
-    console.log(event);
-    console.log("button was clicked");
+// btn.addEventListener("click", function (event) {
+//     console.log(event);
+//     console.log("button was clicked");
+// });
+
+let inp = document.querySelector("input");
+
+inp.addEventListener("keydown", function () {
+    console.log(event.key);
+    console.log(event.code);
+    console.log("key was pressed");
 });
