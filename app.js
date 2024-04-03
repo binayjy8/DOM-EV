@@ -52,5 +52,5 @@ let inp = document.querySelector("input");
 inp.addEventListener("keydown", function () {
     console.log("key = ", event.key);
     console.log(event.code);
-    console.log("key was pressed");
+    console.log("key pressed");
 });
